@@ -1,6 +1,10 @@
-public class FinalExam {
-    public static void main(String[] args) throws Exception {
+import java.util.Scanner;
 
+public class FinalExam {
+
+    static Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) throws Exception {
+        
         // Print the words in their given pattern.
 
         char[][] array = {
@@ -39,9 +43,9 @@ public class FinalExam {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("2. FRAPPUCCINO ");
-        for (int row = 15; row > 0; row--) {
+        for (int row = 0; row < 15; row++) {
             // System.out.println("");
-            for (int column = 15; column > 0; column--) {
+            for (int column = 0; column < 15; column++) {
                 if ((row == 13 && column == 2) || (row == 13 && column == 3) || (row == 13 && column == 4) || (row == 13 && column == 5) || (row == 13 && column == 6) || (row == 13 && column == 7) || (row == 13 && column == 8) || (row == 13 && column == 9) || (row == 13 && column == 10) || (row == 13 && column == 11) || (row == 13 && column == 12)) {
                     System.out.print(array[row][column]);
             }
@@ -64,9 +68,9 @@ public class FinalExam {
         // TIKTOK - (10 points)
         System.out.println(" ");
         System.out.println("4. TIKTOK ");
-        for (int row = 15; row >= 0; row--) {
+        for (int row = 0; row < 15; row++) {
             System.out.println("");
-            for (int column = 15; column >= 0; column--) {
+            for (int column = 0; column < 15; column++) {
                 if ((row == 7 && column == 0) || (row == 8 && column == 1) || (row == 9 && column == 2) || (row == 10 && column == 3) || (row == 11 && column == 4) || (row == 12 && column == 5)){
                     System.out.print(array[row][column]);
             }
@@ -109,7 +113,7 @@ public class FinalExam {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("7. SANMIGLIGHT ");
-        for (int row = 15; row >= 0; row--) {
+        for (int row = 0; row < 15; row++) {
             // System.out.println("");
             for (int column = 0; column < 15; column++) {
                 if ((row == 1 && column == 14) || (row == 2 && column == 14) || (row == 3 && column == 14) || (row == 4 && column == 14) || (row == 5 && column == 14) || (row == 6 && column == 14) || (row == 7 && column == 14) || (row == 8 && column == 14) || (row == 9 && column == 14) || (row == 10 && column == 14) || (row == 11 && column == 14)) {
@@ -219,7 +223,7 @@ public class FinalExam {
         // BONUS (PRIZE AWAITS!)
         System.out.println(" ");
         System.out.println("12. Everybody has a price!");
-        
+
         // Create a program and find out the condition to prove the following statements below.
         // ELIZER == ZOPHIA is TRUE
         // TONI > MARC is FALSE.
