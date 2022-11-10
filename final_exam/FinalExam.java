@@ -25,10 +25,10 @@ public class FinalExam {
         // BANANAQUE - (10 points)
         System.out.println(" ");
         System.out.println("1. BANANAQUE ");
-        for (int row = 0; row < array.length; row++) {
-            System.out.println("");
-            for (int column = 0; column < array.length; column++) {
-                if (row == 0) {
+        for (int row = 0; row < 15; row++) {
+            // System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 2 && column == 0) || (row == 2 && column == 1) || (row == 2 && column == 2) || (row == 2 && column == 3) || (row == 2 && column == 4) || (row == 2 && column == 5) || (row == 2 && column == 6) || (row == 2 && column == 7) || (row == 2 && column == 8)) {
                     System.out.print(array[row][column]);
             }
         }
@@ -37,48 +37,134 @@ public class FinalExam {
         // =============================================================
         // FRAPPUCCINO - (10 points)
         System.out.println(" ");
+        System.out.println(" ");
         System.out.println("2. FRAPPUCCINO ");
-
+        for (int row = 15; row > 0; row--) {
+            // System.out.println("");
+            for (int column = 15; column > 0; column--) {
+                if ((row == 13 && column == 2) || (row == 13 && column == 3) || (row == 13 && column == 4) || (row == 13 && column == 5) || (row == 13 && column == 6) || (row == 13 && column == 7) || (row == 13 && column == 8) || (row == 13 && column == 9) || (row == 13 && column == 10) || (row == 13 && column == 11) || (row == 13 && column == 12)) {
+                    System.out.print(array[row][column]);
+            }
+        }
+    }
         // =============================================================
         // NOVEMBER - (10 points)
         System.out.println(" ");
+        System.out.println(" ");
         System.out.println("3. NOVEMBER ");
-
+        for (int row = 0; row < 15; row++) {
+            // System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 2 && column == 9) || (row == 3 && column == 9) || (row == 4 && column == 9) || (row == 5 && column == 9) || (row == 6 && column == 9) || (row == 7 && column == 9) || (row == 8 && column == 9) || (row == 9 && column == 9)) {
+                    System.out.println(array[row][column]);
+            }
+        }
+    }
         // =============================================================
         // TIKTOK - (10 points)
         System.out.println(" ");
         System.out.println("4. TIKTOK ");
-
+        for (int row = 15; row >= 0; row--) {
+            System.out.println("");
+            for (int column = 15; column >= 0; column--) {
+                if ((row == 7 && column == 0) || (row == 8 && column == 1) || (row == 9 && column == 2) || (row == 10 && column == 3) || (row == 11 && column == 4) || (row == 12 && column == 5)){
+                    System.out.print(array[row][column]);
+            }
+            else 
+            {
+                System.out.print(" ");
+            }
+        }
+    }
         // =============================================================
         // BARBEQUE - (10 points)
         System.out.println(" ");
         System.out.println("5. BARBEQUE ");
-
+        for (int row = 0; row < 15; row++) {
+            System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 12 && column == 0) || (row == 11 && column == 1) || (row == 10 && column == 2) || (row == 9 && column == 3) || (row == 8 && column == 4) || (row == 7 && column == 5) || (row == 6 && column == 6) || (row == 5 && column == 7)) {
+                    System.out.print(array[row][column]);
+            }
+            else
+            {
+                System.out.print(" ");
+            }
+        }
+    }
         // =============================================================
         // HUWEBES - (10 points)
         System.out.println(" ");
         System.out.println("6. HUWEBES ");
-
+        for (int row = 0; row < 15; row++) {
+            // System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 1 && column == 4) || (row == 1 && column == 5) || (row == 1 && column == 6) || (row == 1 && column == 7) || (row == 1 && column == 8) || (row == 1 && column == 9) || (row == 1 && column == 10)) {
+                    System.out.print(array[row][column]);
+            }
+        }
+    }
         // =============================================================
         // SANMIGLIGHT - (10 points)
         System.out.println(" ");
+        System.out.println(" ");
         System.out.println("7. SANMIGLIGHT ");
-
+        for (int row = 15; row >= 0; row--) {
+            // System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 1 && column == 14) || (row == 2 && column == 14) || (row == 3 && column == 14) || (row == 4 && column == 14) || (row == 5 && column == 14) || (row == 6 && column == 14) || (row == 7 && column == 14) || (row == 8 && column == 14) || (row == 9 && column == 14) || (row == 10 && column == 14) || (row == 11 && column == 14)) {
+                    System.out.println(array[row][column]);
+            }
+        }
+    }
         // =============================================================
         // FINALEXAM - (10 points)
         System.out.println(" ");
         System.out.println("8. FINALEXAM ");
-
+        for (int row = 0; row < 15; row++) {
+            System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 0 && column == 14) || (row == 1 && column == 13) || (row == 2 && column == 12) || (row == 3 && column == 11) || (row == 4 && column == 10) || (row == 5 && column == 9) || (row == 6 && column == 8) || (row == 7 && column == 7) || (row == 8 && column == 6)){
+                    System.out.print(array[row][column]);
+            }
+            else 
+            {
+                System.out.print(" ");
+            }
+        }
+    }
         // =============================================================
         // LUNES - (10 points)
         System.out.println(" ");
         System.out.println("9. LUNES ");
-
+        for (int row = 0; row < 15; row++) {
+            System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 4 && column == 0) || (row == 3 && column == 1) || (row == 2 && column == 2) || (row == 1 && column == 3) || (row == 0 && column == 4)){
+                    System.out.print(array[row][column]);
+            }
+            else 
+            {
+                System.out.print(" ");
+            }
+        }
+    }
         // =============================================================
         // SIOMAI - (10 points)
         System.out.println(" ");
         System.out.println("10. SIOMAI ");
-
+        for (int row = 0; row < 15; row++) {
+            System.out.println("");
+            for (int column = 0; column < 15; column++) {
+                if ((row == 3 && column == 6) || (row == 4 && column == 7) || (row == 5 && column == 8) || (row == 6 && column == 9) || (row == 7 && column == 10) || (row == 8 && column == 11)){
+                    System.out.print(array[row][column]);
+            }
+            else 
+            {
+                System.out.print(" ");
+            }
+        }
+    }
         // =============================================================
 
         // BONUS (PRIZE AWAITS!)
